@@ -45,7 +45,7 @@ This project predicts in-game purchase decisions in F2P games using machine lear
   - F1 Score
 
 ![Accuracy Graph](https://github.com/hn-iiitd/ML_Project/blob/main/images/accuracy_graph)
-![ROC Curve](https://github.com/hn-iiitd/ML_Project/blob/main/images/correlation.png)
+![ROC Curve](https://github.com/hn-iiitd/ML_Project/blob/main/images/RocCurve.png)
 
 ---
 
@@ -67,8 +67,8 @@ This project predicts in-game purchase decisions in F2P games using machine lear
 
 ## 📸 Visualizations
 
-![Class Distribution](https://github.com/hn-iiitd/ML_Project/blob/main/EDA.jpg)
-![Feature Correlation](https://via.placeholder.com/500x300.png?text=Feature+Correlation)
+![Class Distribution](https://github.com/hn-iiitd/ML_Project/blob/main/images/EDA.jpg)
+![Feature Correlation](https://github.com/hn-iiitd/ML_Project/blob/main/images/correlation_curve.jpg)
 
 ---
 
