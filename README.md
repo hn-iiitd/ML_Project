@@ -44,7 +44,7 @@ This project predicts in-game purchase decisions in F2P games using machine lear
   - Recall
   - F1 Score
 
-![Accuracy Graph](https://github.com/hn-iiitd/ML_Project/blob/main/images/accuracy_graph.png)
+![Accuracy Graph](https://github.com/hn-iiitd/ML_Project/blob/main/images/accuracy_graph)
 ![ROC Curve](https://github.com/hn-iiitd/ML_Project/blob/main/images/correlation.png)
 
 ---
