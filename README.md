@@ -74,7 +74,7 @@ This project predicts in-game purchase decisions in F2P games using machine lear
 
 ## 🧑🏼‍💻 Contributors
 
-- Harsh Hingorani
+- Harsh Hingorani - harsh22197@iiitd.ac.in
 - Harsh Nangia
 - Idhant Arora
 - Madhav Kansil
