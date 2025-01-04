@@ -44,7 +44,7 @@ This project predicts in-game purchase decisions in F2P games using machine lear
   - Recall
   - F1 Score
 
-![Accuracy Graph](https://github.com/hn-iiitd/ML_Project/blob/main/images/accuracy_graph)
+![Accuracy Graph](https://github.com/hn-iiitd/ML_Project/blob/main/images/accuracy_graph.png)
 ![ROC Curve](https://github.com/hn-iiitd/ML_Project/blob/main/images/RocCurve.jpg)
 
 ---
@@ -75,8 +75,8 @@ This project predicts in-game purchase decisions in F2P games using machine lear
 ## 🧑🏼‍💻 Contributors
 
 - Harsh Hingorani - harsh22197@iiitd.ac.in
-- Harsh Nangia
-- Idhant Arora
-- Madhav Kansil
+- Harsh Nangia - harsh22199@iiitd.ac.in
+- Idhant Arora - idhant22220@iiitd.ac.in
+- Madhav Kansil - madhav22270@iiitd.ac.in
 
 Feel free to contribute and share feedback! 😊
