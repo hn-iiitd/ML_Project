@@ -1,32 +1,100 @@
-# 🕹️ Prediction of Purchase Decisions in Free-to-Play (F2P) Games
+# 🎰 Prediction of Purchase Decisions in Free-to-Play (F2P) Games
 
-This repository contains a machine learning project aimed at predicting whether a player will make an in-game purchase in Free-to-Play (F2P) games. By analyzing player behavior data, this project helps to understand patterns and factors influencing purchase decisions, providing valuable insights for game developers and marketers.
+This project predicts in-game purchase decisions in F2P games using machine learning. We explore factors influencing player purchases, tackle data imbalance, engineer features, and implement robust models to improve prediction accuracy.
 
-## Main Idea
+---
 
-In Free-to-Play (F2P) games, understanding player behavior is crucial to predicting whether a player will spend money on in-game purchases. This project leverages machine learning techniques to predict player spending based on several features, including demographics, playtime, and engagement level. The dataset used contains features like player age, gender, playtime, sessions per week, and in-game achievements. The target variable is whether the player made an in-game purchase or not.
+## 🔍 Project Overview
 
-The goal of this project is to:
-1. **Predict in-game purchase behavior**: Using machine learning models like Logistic Regression, Decision Trees, and Random Forest.
-2. **Handle class imbalances**: Implementing techniques like SMOTE, Tomek Links, and ADASYN to address the imbalance in the dataset.
-3. **Improve model performance**: Experimenting with different feature engineering and resampling techniques to optimize model accuracy.
+- *Motivation:* Analyze player behavior to predict purchases, aiding game developers in monetization strategies.
+- *Dataset:* Kaggle dataset with 13 features, including age, gender, playtime, and engagement levels.
+- *Target Variable:* InGamePurchases (1 for purchase, 0 for no purchase).
 
-### Overview of the Project
+---
 
-- **Data Preprocessing**: Handling missing values, encoding categorical features, and scaling numerical values.
-- **Feature Engineering**: Creating new features based on player behavior to improve prediction.
-- **Modeling**: Training multiple machine learning models to predict purchase decisions.
-- **Evaluation**: Comparing model performance using accuracy, precision, recall, and F1-score.
+## 📊 Methodology
 
-## Conclusion
+### *Data Preprocessing*
+- Addressed class imbalance using:
+  - *SMOTE*
+  - *Tomek Links*
+  - *SMOTE-ENN*
+- Min-Max scaling for feature normalization.
+- Dropped irrelevant features and applied one-hot/numerical encoding.
 
-This project shows that with the right preprocessing, feature engineering, and resampling techniques, machine learning models can effectively predict in-game purchase behavior, which can be valuable for game developers to optimize monetization strategies.
+### *Feature Engineering*
+- Added EstimatedAnnualIncome based on country and engagement level.
 
-## Installation
+### *Models Implemented*
+1. *Logistic Regression*
+2. *Decision Tree*
+3. *Random Forest* (Best model: Accuracy = 87% with Tomek Links)
+4. *Naive Bayes*
 
-Clone this repository and install the dependencies:
+### *Hyperparameter Optimization*
+- Used GridSearchCV for the Random Forest model to achieve optimal performance.
 
-```bash
-git clone https://github.com/your-username/Prediction-of-Purchase-Decisions-in-F2P-Games.git
-cd Prediction-of-Purchase-Decisions-in-F2P-Games
-pip install -r requirements.txt
+---
+
+## 📈 Results
+
+- *Best Model:* Random Forest (Accuracy = 87%)
+- *Evaluation Metrics:* 
+  - Precision
+  - Recall
+  - F1 Score
+
+![Accuracy Graph](https://via.placeholder.com/500x300.png?text=Accuracy+Graph)
+![ROC Curve](https://via.placeholder.com/500x300.png?text=ROC+Curve)
+
+---
+
+## 🛠 Tools & Technologies
+
+- *Languages:* Python
+- *Libraries:* Scikit-learn, Imbalanced-learn
+- *Methods:* GridSearchCV, SMOTE, Tomek Links
+
+---
+
+## 🔗 References
+
+1. [Dataset Source](https://www.kaggle.com/datasets/rabieelkharoua/predict-online-gaming-behavior-dataset)
+2. [SMOTE-ENN Documentation](https://imbalanced-learn.org/stable/references/generated/imblearn.combine.SMOTEENN.html)
+3. [Adaptive Synthetic Sampling (ADASYN)](https://www.activeloop.ai/resources/glossary/adaptive-synthetic-sampling-adasyn/)
+
+---
+
+## 📸 Visualizations
+
+![Class Distribution](https://via.placeholder.com/500x300.png?text=Class+Distribution)
+![Feature Correlation](https://via.placeholder.com/500x300.png?text=Feature+Correlation)
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+   bash
+   git clone https://github.com/hn-iiitd/ML_Project.git
+   cd ML_Project
+   
+2. Install dependencies:
+   bash
+   pip install -r requirements.txt
+   
+3. Run the model:
+   bash
+   python src/main.py
+   
+
+---
+
+## 🧑🏼‍💻 Contributors
+
+- Harsh Hingorani
+- Harsh Nangia
+- Idhant Arora
+- Madhav Kansil
+
+Feel free to contribute and share feedback! 😊
