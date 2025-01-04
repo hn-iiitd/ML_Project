@@ -67,26 +67,8 @@ This project predicts in-game purchase decisions in F2P games using machine lear
 
 ## 📸 Visualizations
 
-![Class Distribution](https://via.placeholder.com/500x300.png?text=Class+Distribution)
+![Class Distribution](https://github.com/hn-iiitd/ML_Project/blob/main/EDA.jpg)
 ![Feature Correlation](https://via.placeholder.com/500x300.png?text=Feature+Correlation)
-
----
-
-## 🚀 How to Run
-
-1. Clone the repository:
-   bash
-   git clone https://github.com/hn-iiitd/ML_Project.git
-   cd ML_Project
-   
-2. Install dependencies:
-   bash
-   pip install -r requirements.txt
-   
-3. Run the model:
-   bash
-   python src/main.py
-   
 
 ---
 
